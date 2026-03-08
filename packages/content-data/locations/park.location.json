@@ -1,0 +1,6 @@
+{
+  "id": "loc_park",
+  "displayName": "Park",
+  "locationType": "park",
+  "supportedActivities": ["exercise", "rest", "social"]
+}

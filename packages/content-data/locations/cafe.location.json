@@ -1,0 +1,6 @@
+{
+  "id": "loc_cafe",
+  "displayName": "Cafe",
+  "locationType": "cafe",
+  "supportedActivities": ["rest", "social", "study"]
+}

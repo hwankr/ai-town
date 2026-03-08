@@ -1,5 +1,9 @@
 {
   "id": "char_a",
   "displayName": "A",
-  "homeLocationId": "loc_home_block"
+  "homeLocationId": "loc_home_block",
+  "defaultSpawnLocationId": "loc_home_block",
+  "personaTags": ["quiet", "disciplined", "observational"],
+  "preferredLocationIds": ["loc_home_block", "loc_library", "loc_park"],
+  "dislikedLocationIds": ["loc_arcade"]
 }

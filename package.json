@@ -7,13 +7,16 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build -w @ai-town/shared-types && npm run build -w @ai-town/sim-core && npm run build -w @ai-town/game-renderer && npm run build -w @ai-town/content-data && npm run build -w @ai-town/ai-bridge && npm run build -w @ai-town/desktop",
+    "build": "npm run build -w @ai-town/shared-types && npm run build -w @ai-town/content-data && npm run build -w @ai-town/sim-core && npm run build -w @ai-town/game-renderer && npm run build -w @ai-town/ai-bridge && npm run build -w @ai-town/desktop",
     "dev": "npm run dev -w @ai-town/desktop",
-    "typecheck": "npm run typecheck -w @ai-town/shared-types && npm run typecheck -w @ai-town/sim-core && npm run typecheck -w @ai-town/game-renderer && npm run typecheck -w @ai-town/content-data && npm run typecheck -w @ai-town/ai-bridge && npm run typecheck -w @ai-town/desktop",
+    "typecheck": "npm run typecheck -w @ai-town/shared-types && npm run typecheck -w @ai-town/content-data && npm run typecheck -w @ai-town/sim-core && npm run typecheck -w @ai-town/game-renderer && npm run typecheck -w @ai-town/ai-bridge && npm run typecheck -w @ai-town/desktop",
+    "test": "npm run test -w @ai-town/sim-core",
+    "smoke": "npm run smoke -w @ai-town/sim-core && tsx tests/smoke.ts",
     "clean": "find apps packages -type d \\( -name dist -o -name node_modules -o -name .vite \\) -prune -exec rm -rf {} +"
   },
   "devDependencies": {
     "@types/node": "^25.3.5",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   }
 }

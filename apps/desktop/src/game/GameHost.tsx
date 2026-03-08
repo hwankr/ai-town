@@ -55,10 +55,13 @@ export function GameHost() {
         <dl style={metaGridStyle}>
           <Meta label="focus" value={projection.focusCharacterId} />
           <Meta label="characters" value={String(frame.characterCount)} />
+          <Meta label="locations" value={String(frame.locationCount)} />
+          <Meta label="events" value={String(frame.activeEventCount)} />
           <Meta label="default slot" value={DEFAULT_SLOT_ID} />
           <Meta label="content" value={`${bootstrapContentManifest.characters.length} chars / ${bootstrapContentManifest.locations.length} locs`} />
           <Meta label="ai bridge" value={aiBridgeStatus} />
-          <Meta label="src-tauri" value="placeholder tree ready" />
+          <Meta label="phase" value={projection.phase} />
+          <Meta label="ambient" value={projection.ambientTags.join(', ')} />
         </dl>
       </div>
     </section>

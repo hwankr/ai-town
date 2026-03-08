@@ -10,9 +10,12 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsx --test src/testing/HeadlessSimulationHarness.test.ts",
+    "smoke": "tsx src/testing/runHeadlessSmoke.ts"
   },
   "dependencies": {
+    "@ai-town/content-data": "0.1.0",
     "@ai-town/shared-types": "0.1.0"
   }
 }

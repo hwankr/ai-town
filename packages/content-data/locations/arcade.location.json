@@ -1,0 +1,6 @@
+{
+  "id": "loc_arcade",
+  "displayName": "Arcade",
+  "locationType": "arcade",
+  "supportedActivities": ["game", "social"]
+}

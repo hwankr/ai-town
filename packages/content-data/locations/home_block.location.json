@@ -1,5 +1,6 @@
 {
   "id": "loc_home_block",
   "displayName": "Home Block",
-  "supportedActivities": ["rest", "study"]
+  "locationType": "home",
+  "supportedActivities": ["sleep", "rest", "study"]
 }
