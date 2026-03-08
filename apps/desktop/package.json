@@ -1,0 +1,27 @@
+{
+  "name": "@ai-town/desktop",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json --noEmit && vite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@ai-town/ai-bridge": "0.1.0",
+    "@ai-town/content-data": "0.1.0",
+    "@ai-town/game-renderer": "0.1.0",
+    "@ai-town/shared-types": "0.1.0",
+    "@ai-town/sim-core": "0.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "vite": "^7.3.1"
+  }
+}

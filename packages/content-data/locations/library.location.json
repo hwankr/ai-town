@@ -1,0 +1,5 @@
+{
+  "id": "loc_library",
+  "displayName": "Library",
+  "supportedActivities": ["study", "social"]
+}

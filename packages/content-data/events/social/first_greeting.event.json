@@ -1,0 +1,6 @@
+{
+  "id": "evt_first_greeting",
+  "type": "social",
+  "participants": ["char_a"],
+  "summary": "A notices the town has finally started to move."
+}
